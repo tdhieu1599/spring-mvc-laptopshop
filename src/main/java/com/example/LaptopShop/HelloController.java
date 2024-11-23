@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 public class HelloController {
     @GetMapping("/")
     public String index() {
-        return "Hello update 1 2 3";
+        return "Hello world Spring Boot";
     }
 
     @GetMapping("/user")
